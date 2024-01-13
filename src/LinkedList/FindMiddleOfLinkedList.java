@@ -1,5 +1,5 @@
 package LinkedList;
-
+import java.util.*;
 public class FindMiddleOfLinkedList {
 
     public static void main(String[] args) {
@@ -13,7 +13,7 @@ public class FindMiddleOfLinkedList {
         head.next = n1; n1.next = n2; n2.next = n3; n3.next = n4; n4.next = n5;
 
         Node<Integer> middle = FindMiddle(head);
-        System.out.print(middle.val);
+        System.out.println(middle.val);
 
     }
     public static Node<Integer> FindMiddle(Node<Integer> head){
