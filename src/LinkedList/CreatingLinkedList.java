@@ -35,9 +35,4 @@ class Node<E>{
         this.next = null;
     }
 
-    public Node(int i) {
-        this.val = val;
-        this.next = null;
-
-    }
 }
