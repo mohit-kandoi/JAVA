@@ -12,7 +12,7 @@ public class FirstNegativeInEveryWindowOfSizeK {
         System.out.println(Arrays.toString(ans));
 
     }
-    public static int[] firstNegative(int[] a, int k){
+     public static int[] firstNegative(int[] a, int k){
         int n = a.length;
         int[] ans = new int[n-k+1];
         Queue<Integer> q = new LinkedList<>();
